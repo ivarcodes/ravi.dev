@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Ravi Bhushan V — Full Stack Engineer">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1c1c20" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity=".24"/>
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6ea8fe"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="#0b0b0c"/>
+  <rect width="1200" height="630" fill="url(#grid)" opacity=".55"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <rect x="72" y="70" width="52" height="52" rx="14" fill="#f0f0ee"/>
+  <text x="98" y="104" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="18" font-weight="700" fill="#0b0b0c">RB</text>
+
+  <text x="72" y="196" font-family="DejaVu Sans Mono, monospace" font-size="16" letter-spacing="4" fill="#6ea8fe">PORTFOLIO — 2026</text>
+
+  <text x="72" y="292" font-family="DejaVu Sans, sans-serif" font-size="76" font-weight="700" letter-spacing="-3" fill="#f0f0ee">Ravi Bhushan V</text>
+
+  <text x="72" y="356" font-family="DejaVu Sans Mono, monospace" font-size="24" fill="#a3a39e">Full Stack Engineer</text>
+  <text x="72" y="394" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#6ea8fe">MERN · TypeScript · AI Systems</text>
+
+  <rect x="72" y="454" width="420" height="2" fill="url(#accent)"/>
+
+  <text x="72" y="510" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#a3a39e">Real-time APIs · event-driven systems · LLM streaming</text>
+  <text x="72" y="568" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#6d6d68">noobah.github.io/portfolio-v1</text>
+
+  <g transform="translate(860 190)">
+    <circle cx="150" cy="150" r="120" fill="none" stroke="#262628" stroke-width="1" stroke-dasharray="4 6"/>
+    <circle cx="150" cy="150" r="86" fill="#111113" stroke="#2f4e7a" stroke-width="1"/>
+    <text x="150" y="168" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="52" font-weight="700" letter-spacing="-3" fill="#6ea8fe">RB</text>
+  </g>
+</svg>
