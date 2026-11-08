@@ -74,7 +74,7 @@ export default function Testimonials() {
   const cards = data.testimonials.map((t, index) => (
     <figure
       key={t.reviewUrl}
-      className="relative m-0 flex flex-[0_0_72vw] flex-col gap-2 overflow-hidden rounded-card border border-line bg-card px-[0.9rem] py-[0.7rem] [transition:box-shadow_0.35s_var(--ease),border-color_150ms_ease,transform_150ms_var(--ease)] hover:-translate-y-1 hover:border-accent-line hover:shadow-[0_16px_32px_color-mix(in_srgb,var(--accent)_10%,transparent)] min-[560px]:flex-[0_0_clamp(18rem,38vw,26rem)]">
+      className="relative m-0 flex w-[72vw] flex-none flex-col gap-2 overflow-hidden rounded-card border border-line bg-card px-[0.9rem] py-[0.7rem] [transition:box-shadow_0.35s_var(--ease),border-color_150ms_ease,transform_150ms_var(--ease)] hover:-translate-y-1 hover:border-accent-line hover:shadow-[0_16px_32px_color-mix(in_srgb,var(--accent)_10%,transparent)] min-[560px]:w-[clamp(18rem,38vw,26rem)]">
       <div className="flex items-center justify-between">
         <span
           className="inline-flex text-accent opacity-90 [&_svg]:h-[1.05rem] [&_svg]:w-[1.05rem]"
