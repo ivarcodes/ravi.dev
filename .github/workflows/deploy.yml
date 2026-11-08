@@ -26,8 +26,8 @@ jobs:
       - run: npm ci
       - run: npm run build
         env:
-          VITE_BASE: /portfolio-v1/
-      # SPA fallback so deep links like /portfolio-v1/projects work on GitHub Pages
+          VITE_BASE: /ravi.dev/
+      # SPA fallback so deep links like /ravi.dev/projects work on GitHub Pages
       - run: cp dist/index.html dist/404.html
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

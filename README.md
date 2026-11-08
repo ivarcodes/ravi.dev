@@ -22,4 +22,4 @@ Everything editable lives in `src/data/portfolio.ts`. Add a project or a job the
 
 ## GitHub Pages
 
-The workflow in `.github/workflows/deploy.yml` builds with `VITE_BASE=/portfolio-v1/` and copies `index.html` to `404.html` so deep links work.
+The workflow in `.github/workflows/deploy.yml` builds with `VITE_BASE=/ravi.dev/` and copies `index.html` to `404.html` so deep links work.
